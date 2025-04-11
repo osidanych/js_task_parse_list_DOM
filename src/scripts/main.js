@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
   employees.forEach((emp) => {
     const p = document.createElement('p');
 
-    p.textContent = `${emp.name}, ${emp.position}, ${emp.salary}₴, ${emp.age} років`;
+    p.textContent = `${emp.personName}, ${emp.position}, ${emp.salary}₴, ${emp.age} років`;
     output.appendChild(p);
   });
 });
